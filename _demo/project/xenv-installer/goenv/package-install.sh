@@ -4,7 +4,7 @@ set -e
 
 
 ################################################################################
-### Head: rebenv
+### Head: goenv
 ##
 goenv_clone_repo () {
 	if [ -d "$HOME/.goenv" ]; then
@@ -29,7 +29,7 @@ goenv_init_script_install () {
 	cp "./config/goenv/init.sh" "$HOME/app/goenv/init.sh"
 }
 ##
-### Tail: rebenv
+### Tail: goenv
 ################################################################################
 
 

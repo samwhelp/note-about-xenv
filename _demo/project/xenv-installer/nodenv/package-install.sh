@@ -4,7 +4,7 @@ set -e
 
 
 ################################################################################
-### Head: rebenv
+### Head: nodenv
 ##
 nodenv_clone_repo () {
 	if [ -d "$HOME/.nodenv" ]; then
@@ -62,7 +62,7 @@ nodenv_init_script_install () {
 	cp "./config/nodenv/init.sh" "$HOME/app/nodenv/init.sh"
 }
 ##
-### Tail: rebenv
+### Tail: nodenv
 ################################################################################
 
 

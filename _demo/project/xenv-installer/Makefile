@@ -25,7 +25,7 @@ help:
 	@echo
 .PHONY: help
 
-all-install: rbenv-install pyenv-install luaenv-install
+all-install: composer-install rbenv-install pyenv-install luaenv-install nodenv-install goenv-install
 .PHONY: all-install
 
 rbenv-install:

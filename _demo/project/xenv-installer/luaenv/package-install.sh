@@ -4,7 +4,7 @@ set -e
 
 
 ################################################################################
-### Head: rebenv
+### Head: luaenv
 ##
 luaenv_clone_repo () {
 	if [ -d "$HOME/.luaenv" ]; then
@@ -61,7 +61,7 @@ luaenv_init_script_install () {
 	cp "./config/luaenv/init.sh" "$HOME/app/luaenv/init.sh"
 }
 ##
-### Tail: rebenv
+### Tail: luaenv
 ################################################################################
 
 

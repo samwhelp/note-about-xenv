@@ -4,7 +4,7 @@ set -e
 
 
 ################################################################################
-### Head: rebenv
+### Head: pyenv
 ##
 pyenv_clone_repo () {
 	if [ -d "$HOME/.pyenv" ]; then
@@ -47,7 +47,7 @@ pyenv_init_script_install () {
 	cp "./config/pyenv/init.sh" "$HOME/app/pyenv/init.sh"
 }
 ##
-### Tail: rebenv
+### Tail: pyenv
 ################################################################################
 
 
