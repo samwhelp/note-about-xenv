@@ -4,7 +4,7 @@
 
 ## Link
 
-* [goenv](https://github.com/cehoffman/goenv)
+* [goenv](https://github.com/syndbg/goenv)
 
 ## Case
 
