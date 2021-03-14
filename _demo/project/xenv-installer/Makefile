@@ -19,7 +19,9 @@ help:
 	@echo
 	@echo '	$$ make nodenv-install'
 	@echo
-	@echo '	$$ make goenv-install'	
+	@echo '	$$ make goenv-install'
+	@echo
+	@echo '	$$ make composer-install'
 	@echo
 .PHONY: help
 
@@ -45,3 +47,8 @@ nodenv-install:
 goenv-install:
 	make -C goenv install
 .PHONY: goenv-install
+
+composer-install:
+	make -C composer install
+.PHONY: composer-install
+

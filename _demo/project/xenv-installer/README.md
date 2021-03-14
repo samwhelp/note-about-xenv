@@ -7,3 +7,5 @@
 * [luaenv](luaenv)
 * [nodenv](nodenv)
 * [goenv](goenv)
+* [composer](composer)
+
