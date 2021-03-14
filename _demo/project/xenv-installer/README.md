@@ -6,3 +6,4 @@
 * [pyenv](pyenv)
 * [luaenv](luaenv)
 * [nodenv](nodenv)
+* [goenv](goenv)
