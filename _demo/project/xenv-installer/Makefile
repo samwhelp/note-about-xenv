@@ -17,6 +17,8 @@ help:
 	@echo
 	@echo '	$$ make luaenv-install'
 	@echo
+	@echo '	$$ make nodenv-install'
+	@echo
 .PHONY: help
 
 all-install: rbenv-install pyenv-install luaenv-install
@@ -33,3 +35,7 @@ pyenv-install:
 luaenv-install:
 	make -C luaenv install
 .PHONY: luaenv-install
+
+nodenv-install:
+	make -C nodenv install
+.PHONY: nodenv-install
