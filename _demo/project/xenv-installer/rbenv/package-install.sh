@@ -8,6 +8,7 @@ set -e
 ##
 rbenv_clone_repo () {
 	if [ -d "$HOME/.rbenv" ]; then
+		echo
 		echo "Exist: $HOME/.rbenv"
 		return
 	fi
@@ -22,6 +23,7 @@ rbenv_clone_repo () {
 
 rbenv_build_clone_repo () {
 	if [ -d "$HOME/.rbenv/plugins/ruby-build" ]; then
+		echo
 		echo "Exist: $HOME/.rbenv/plugins/ruby-build"
 		return
 	fi

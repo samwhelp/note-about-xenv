@@ -9,12 +9,16 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
+	@echo '	$$ make all-install'	
+	@echo
 	@echo '	$$ make rbenv-install'
 	@echo
 	@echo '	$$ make luaenv-install'
 	@echo
 .PHONY: help
 
+all-install: rbenv-install luaenv-install
+.PHONY: all-install
 
 rbenv-install:
 	make -C rbenv install 

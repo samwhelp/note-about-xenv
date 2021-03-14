@@ -21,7 +21,7 @@ rbenv_config_bashrc () {
 		echo
 		echo "Check Command:"
 		echo
-		echo '	$ grep "### Head: rbenv" "$HOME/.bashrc" -A 9 -B 1'
+		echo '	$ grep "### Head: rbenv" "$HOME/.bashrc" -A 11 -B 1'
 		return
 	fi
 
